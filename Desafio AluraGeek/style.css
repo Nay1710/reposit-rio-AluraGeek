@@ -1,0 +1,101 @@
+header {
+    background-image: url(./IMG/Logo_AluraGeek.png);
+    background-color: #5D04D9;
+    height: 96px; /* Ajuste a altura conforme necessário */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    padding: 60px 40px;
+    gap: 70px;
+}
+
+.conteudo__Section--Produtos {
+    flex-grow: 1;
+    flex-basis: 60%;
+        
+    }
+
+.conteudo__Section--Formulario {
+    flex-grow: 1;
+    flex-basis: 40%;
+    }
+
+.conteudo__Card {
+    background-color: #5D04D9;
+    border-radius: 8px; /* Cantos arredondados */
+    padding: 16px; /* Espaçamento interno */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os elementos */
+    width: 150px; /* Largura do card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar o card */
+    margin: 8px; /* Espaçamento entre os cards */
+    border: 3px solid black; /* Contorno roxo escuro */
+}
+
+.conteudo__Imagem {
+    width: 100%; /* Garante que a imagem ocupe toda a largura do card */
+    border-radius: 8px; /* Opcional: arredonda as bordas da imagem */
+    margin-bottom: 8px; /* Espaçamento entre imagem e texto */
+}
+
+.conteudo__Card--Nome {
+    color: white;
+}
+
+.conteudo__Section--Produtos, .conteudo__Section--Formulario {
+    display: flex; /* Habilita Flexbox */
+    flex-direction: column; /* Organiza os itens verticalmente */
+    justify-content: center;
+    align-items: center; /* Centraliza os itens horizontalmente */
+    text-align: center; /* Centraliza o texto dentro dos itens */
+    width: 50%;
+    gap: 20px; /* Espaçamento entre os elementos */
+    padding: 20px; /* Espaçamento interno */
+}
+
+.conteudo__Formulario {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .conteudo__Formulario input,
+  .conteudo__Formulario button {
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 3px solid #5D04D9;
+    border-radius: 30px;
+  }
+
+.conteudo__Botoes {
+    display: flex;
+    gap: 13px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px;
+    background-color: #5D04D9;
+    height: 100px; /* Ajuste a altura conforme necessário */
+    color: white;
+    text-align: center; /* Garante que o texto também fique centralizado */
+}
+
+.Footer__Logo {
+    margin-bottom: 10px; /* Espaçamento entre a logo e o texto */
+}
+
+.Footer__Texto, .Footer__Creditos {
+    margin: 5px 0; /* Espaçamento entre os textos */
+}
